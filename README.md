@@ -1,5 +1,5 @@
 # Simplify Coordinates
-[Simplify.js](https://mourner.github.io/simplify-js/) is a small library to reduce the number of coordinates required to represent the same shape. It can be used to  compress route data by removing redundant coordinates. The library has been ported to various languages and this repo does it for SQL (specifically Postgres, using PL/Python). It will be useful when you want to compress the coordinates in the database itself. 
+[Simplify.js](https://mourner.github.io/simplify-js/) is a small library to reduce the number of coordinates required to represent the same shape. It can be used to  compress route data by removing redundant coordinates. The library has been [ported to various languages](https://github.com/mourner/simplify-js) and this repo does it for SQL (specifically Postgres, using PL/Python). It will be useful when you want to compress the coordinates in the database itself. 
 
 ## Requirements
 This extension depends upon PL/Python extension, which allows Postgres functions to be written in Python. The reason being that loops, if..then statements, recursion are far more easier in Procedural langauges than SQL. 
